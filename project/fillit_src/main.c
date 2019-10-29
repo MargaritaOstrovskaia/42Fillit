@@ -69,8 +69,8 @@ int			main(int argc, char **argv)
 			return (error());
 		count = get_countfig(figures);
 		solve(count, figures);
-		return (0);
 	}
 	else
 		ft_putstr("usage: ./fillit valid_sample.fillit\n");
+	return (0);
 }
